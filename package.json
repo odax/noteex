@@ -1,0 +1,20 @@
+{
+  "name": "noteex",
+  "version": "1.0.0",
+  "description": "Notee X allows users to log in and take notes about websites that they have read or are viewing. Useful for students and avid learners.",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --watch --verbose",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odax/noteex.git"
+  },
+  "author": "Nalee Riddell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odax/noteex/issues"
+  },
+  "homepage": "https://github.com/odax/noteex#readme"
+}
