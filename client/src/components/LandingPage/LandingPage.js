@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React from 'react'
+
 import IntBox from './IntBox';
 
 const LandingPage = () => {
