@@ -1,29 +1,29 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 //create new context
 const AppContext = React.createContext();
 
 //provider
 export class AppContextProvider extends Component {
-    state = {
-
-    }
+  state = {
+      authenticated: false
+  };
   render() {
     return (
-        <AppContext.Provider
-            value = {{
-                AppState: this.state
-            }}
-        >
-            {this.props.children}
-        </AppContext.Provider>
+      <AppContext.Provider
+        value={{
+          AppState: this.state
+        }}
+      >
+        {this.props.children}
+      </AppContext.Provider>
     );
   }
 }
 
 AppContextProvider.propTypes = {
-    children: PropTypes.any
+  children: PropTypes.any
 };
 
 export const AppContextConsumer = AppContext.Consumer;
