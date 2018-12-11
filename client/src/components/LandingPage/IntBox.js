@@ -5,6 +5,7 @@ import IntBox__InitialView from './IntBox__InitialView';
 import IntBox__SignupView from './IntBox__SignupView';
 import IntBox__LoginView from './IntBox__LoginView';
 import IntBox__Activate from './IntBox__Activate';
+import LoggedIn from './LoggedIn';
 
 //IntBox is short for InteractionBox
 const IntBox = () => {
@@ -14,6 +15,7 @@ const IntBox = () => {
         <Route path = '/signup' component = {IntBox__SignupView}/>
         <Route path = '/login' component = {IntBox__LoginView}/>
         <Route path = '/activateaccount' component = {IntBox__Activate}/>
+        <Route path = '/loggedin' component = {LoggedIn}/>
       </div>
     )
 };
